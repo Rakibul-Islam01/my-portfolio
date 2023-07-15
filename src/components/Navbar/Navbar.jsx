@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/solid'
+import { HiOutlineMenuAlt1, HiOutlineX } from 'react-icons/hi'
 
 const Navbar = () => {
 
@@ -10,7 +10,7 @@ const Navbar = () => {
         <nav className='bg-cyan-400 py-3 sticky top-0 z-10'>
             <div onClick={()=>setOpen(!open)} className='md:hidden ml-4'>
                 <span>
-                    {open === true ? <XMarkIcon className="h-6 w-6 text-cyan-500" /> : <Bars3Icon className="h-6 w-6 text-base-500" />}
+                    {open === true ? <HiOutlineX className="h-6 w-6 text-cyan-500" /> : <HiOutlineMenuAlt1 className="h-6 w-6 text-base-500" />}
                 </span>
                 
                 

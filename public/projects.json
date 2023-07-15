@@ -1,0 +1,27 @@
+[
+    {
+      "name": "Project 1",
+      "description": "Description of project 1.",
+      "technologies": ["React", "HTML", "CSS"],
+      "screenshot": "https://i.postimg.cc/J0fKsGHz/Web-capture-15-7-2023-222810-taste-of-korea-5ebc3-web-app.jpg",
+      "liveDemo": "https://example.com/project1",
+      "githubRepo": "https://github.com/your-username/project1"
+    },
+    {
+      "name": "Project 2",
+      "description": "Description of project 2.",
+      "technologies": ["React", "Node.js", "MongoDB"],
+      "screenshot": "https://i.postimg.cc/4y7B4zd0/Web-capture-15-7-2023-223233-drawing-school-e21cc-web-app.jpg",
+      "liveDemo": "https://example.com/project2",
+      "githubRepo": "https://github.com/your-username/project2"
+    },
+    {
+      "name": "Project 3",
+      "description": "Description of project 3.",
+      "technologies": ["React", "Firebase", "Firestore"],
+      "screenshot": "https://i.postimg.cc/0QHVqt8m/Web-capture-15-7-2023-223020-car-toys-216a0-web-app.jpg",
+      "liveDemo": "https://example.com/project3",
+      "githubRepo": "https://github.com/your-username/project3"
+    }
+  ]
+  

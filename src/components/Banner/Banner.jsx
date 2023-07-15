@@ -1,8 +1,7 @@
 import React from 'react';
 import Typewriter from 'typewriter-effect';
-import { ArrowDownIcon } from '@heroicons/react/24/solid'
-// import developer from '../../../public/lottie-animation.json'
-// import Lottie from 'react-lottie'
+import { HiDownload } from "react-icons/hi";
+
 
 const Banner = () => {
     return (
@@ -29,7 +28,7 @@ const Banner = () => {
                             />
                         </div>
                         <a href="resume.pdf" target='_blank'>
-                            <button className="btn btn-primary"> <ArrowDownIcon className="h-6 w-6 text-blue-500" /> Resume</button>
+                            <button className="btn bg-[#39cae4] mt-8"> <HiDownload className="h-6 w-6 text-light-500" />Download Resume</button>
                         </a>
                     </div>
                 </div>
